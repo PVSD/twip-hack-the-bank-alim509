@@ -26,11 +26,11 @@ public class bankAccount implements Comparable {
     }
 
     public void deposit(double dp) {
-        balance = balance + dp;
+        balance += dp;
     }
 
     public void withdraw(double wd) {
-        balance = balance - wd;
+        balance -= wd;
     }
 
     public String name;
